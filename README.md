@@ -1,43 +1,75 @@
-# `Shoppers Mart Inc.`
 
-## This repository is responsible for `Shoppers Mart`'s ecommerce backend. It is build using Django-Oscar framework.
-## The major implimentation is the integration of the backend with the Stripe to facilitate online payments.
+```markdown
+# Shoppers Mart Inc.
 
-# Instructions to setup the repo on the local machine:
+Welcome to the Shoppers Mart Inc. repository! This repository houses the backend for the Shoppers Mart e-commerce platform, built using the Django-Oscar framework. The primary focus of this implementation is the seamless integration of the backend with Stripe, enabling efficient online payment processing.
 
-## Python version
-`python3 --version`
+## Setup Instructions
 
-## Pip3 Install
-`pip3 install pipenv`
+1. Check Python Version:
+   ```bash
+   python3 --version
+   ```
 
-## Pip3 Version
-`pip3 --version`
+2. Install Pipenv:
+   ```bash
+   pip3 install pipenv
+   ```
 
-## Creating env
-`virtualenv .`
+3. Check Pipenv Version:
+   ```bash
+   pipenv --version
+   ```
 
-## Activating env
-`source bin/activate`
+4. Create and Activate Virtual Environment:
+   ```bash
+   virtualenv .
+   source bin/activate
+   ```
 
-## Seeing the currently installed packages in our env
-`pip3 freeze`
+5. View Installed Packages:
+   ```bash
+   pip3 freeze
+   ```
 
-## Installing all the dependencies
-`pip3 install -r requirements.txt`
+6. Install Dependencies:
+   ```bash
+   pip3 install -r requirements.txt
+   ```
 
-## Seeing the currently installed packages in our env
-`pip3 freeze`
+7. Make Migrations:
+   ```bash
+   python manage.py makemigrations
+   ```
 
-## Make migration
-`python manage.py makemigrations`
+8. Apply Migrations:
+   ```bash
+   python manage.py migrate
+   ```
 
-## Run migration
-`python manage.py migrate`
+9. Create Superuser:
+   ```bash
+   python manage.py createsuperuser
+   ```
 
-## Creating Superuser
-`python manage.py createsuperuser`
+10. Run Local Server:
+    ```bash
+    python manage.py runserver
+    ```
 
-## Run on local server
-`python manage.py runserver`
+**Note**: After launching the server, remember to check the localhost port on which the server is running. This information will be required to configure the backend in the Shoppers Mart React frontend application.
 
+## Contributing
+
+Feel free to contribute to the Shoppers Mart project by submitting pull requests, reporting issues, or suggesting improvements. Your input is highly appreciated!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+[**Shoppers Mart Inc.**](https://example.com)
+```
+
+Copy and paste this Markdown code into your repository's README.md file. It includes the complete setup instructions and additional sections for contributing and licensing.
