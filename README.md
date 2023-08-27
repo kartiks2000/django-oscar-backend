@@ -41,5 +41,3 @@
 ## Run on local server
 `python manage.py runserver`
 
-
-## NOTE: Once the server is running, make sure to check the localhost port the server is running on. You will need to configure it for backend in the Shoppers Mart react frontend applciation.
