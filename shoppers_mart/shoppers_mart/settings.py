@@ -78,6 +78,8 @@ INSTALLED_APPS = [
     'haystack',
     'treebeard',
     'django_tables2',
+
+    'payments.apps.PaymentsConfig',
 ]
 
 
