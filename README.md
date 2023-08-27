@@ -71,5 +71,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 [**Shoppers Mart Inc.**](https://example.com)
 ```
-
-Copy and paste this Markdown code into your repository's README.md file. It includes the complete setup instructions and additional sections for contributing and licensing.
