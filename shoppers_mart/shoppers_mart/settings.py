@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
 
     'django.contrib.sites',
     'django.contrib.flatpages',
@@ -117,6 +118,8 @@ TEMPLATES = [
     },
 ]
 
+SITE_ID = 1
+
 WSGI_APPLICATION = 'shoppers_mart.wsgi.application'
 
 
@@ -180,7 +183,18 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny',
+    ]
+}
+
+SITE_URL = 'http://localhost:8000'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+STRIPE_PUBLISHABLE_KEY= 'pk_test_51NjnSYJrd2Q2u0o6ZSlO9gHzsMlxRauNyFHi3C0KXu6ho3llcCX0IqMSy7nyjD4Fc1cIVNdjypRkhrwABwnsyebs00db3NPiwE'
+STRIPE_SECRET_KEY = 'sk_test_51NjnSYJrd2Q2u0o6mnxlLNrTNY1uAykJwVWINhpnSxAoQG9OGBlNXM49cRkW0DroUsrpMf4YMoojUjamfDiNTVVZ007PTpq9v0'
